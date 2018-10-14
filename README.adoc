@@ -1,7 +1,7 @@
 :figure-caption!:
 :tocs!:
 
-## 14.10.2018 🚀
+## 14.10.2018 ✨
 
 [quote, Edsger W. Dijkstra, On the cruelty of really teaching computer science]
 ____
