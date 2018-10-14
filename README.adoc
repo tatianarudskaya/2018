@@ -3,7 +3,6 @@
 
 ## 14.10.2018 ✨
 
-[quote, Edsger W. Dijkstra, On the cruelty of really teaching computer science]
 ____
 *The usual way in which we plan today for tomorrow is in yesterday's vocabulary.*
 We do so, because we try to get away with the concepts we are familiar with and
