@@ -32,7 +32,7 @@ image::images/tdd-cycle.png[TDD Cycle, 575, 386]
   http://carrrsmag.com/blog/cloc.html[(Blog information)].
   
 . https://github.com/PyCQA/mccabe[McCabe] (check McCabe complexity).
-  https://pypi.org/project/mccabe/ (install mccabe 0.6.1).
+  https://pypi.org/project/mccabe/ [(install mccabe 0.6.1)].
 
 
 
