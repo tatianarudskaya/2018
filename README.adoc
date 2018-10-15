@@ -29,7 +29,7 @@ image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 **For Python**
 
 . https://github.com/AlDanial/cloc[Cloc] (counts).
-  http://carrrsmag.com/blog/cloc.html[Blog].
+  http://carrrsmag.com/blog/cloc.html[(Blog information)].
 
 #### ABC of discovering a pain in the code
 
