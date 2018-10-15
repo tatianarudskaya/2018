@@ -26,6 +26,9 @@ image::images/tdd-cycle.png[TDD Cycle, 575, 386]
   zob. pkt. #3: for Churn.
 . https://docs.rubocop.org/en/latest/[RuboCop] – static code analyzer (a.k.a. linter) and code formatter (style).
 
+**For Python**
+
+
 #### ABC of discovering a pain in the code
 
 Do wyszukiwania _pain in Ruby code_ użyjemy narzędzia
