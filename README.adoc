@@ -34,8 +34,9 @@ image::images/tdd-cycle.png[TDD Cycle, 575, 386]
   https://pypi.org/project/mccabe[(install mccabe 0.6.1)].
 . https://github.com/PyCQA/pylint[Pylint] (symilar: an independent similarities checker).
 . (...).
-. https://github.com/davidhalter/jedi[Jedi] (static analysis library)
-  https://github.com/python/mypy[Mypy] (Optional Static Typing).
+. https://github.com/PyCQA/pylint[Pylint]
+
+
 
 
 #### ABC of discovering a pain in the code
