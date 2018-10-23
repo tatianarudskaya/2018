@@ -1,26 +1,10 @@
-## 14.10.2018 ✨
-
-## Laboratoria
-
-### 1, 2. Wyszukujemy w kodzie fragmenty _WTF_
-
-**For Ruby**
-
-. https://github.com/AlDanial/cloc[Cloc] (counts).
-. http://ruby.sadi.st/Flog.html[Flog] (ABC complexity).
-. http://ruby.sadi.st/Flay.html[Flay] (structural similarities).
-. https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth[Breaking Up the Behemoth] –
-  zob. pkt. #3: for Churn.
-. https://docs.rubocop.org/en/latest/[RuboCop] – static code analyzer (a.k.a. linter) and code formatter (style).
-
-**For Python**
+## Projekt 1: Python _WTF_ factor
 
 . https://github.com/AlDanial/cloc[Cloc] (counts).
   http://carrrsmag.com/blog/cloc.html[(Blog information)].
 . https://github.com/PyCQA/mccabe[McCabe] (check McCabe complexity).
   https://pypi.org/project/mccabe[(install mccabe 0.6.1)].
-. https://github.com/PyCQA/pylint[Pylint] (symilar: an independent similarities checker).
-. (...).
+. https://github.com/PyCQA/pylint[Pylint] (an independent similarities checker).
 . https://github.com/PyCQA/pylint[Pylint]
 
 
@@ -37,14 +21,6 @@ Ruby / Python
 |5  |https://docs.rubocop.org/en/latest/[RuboCop]– static code analyzer (a.k.a. linter) and code formatter (style) |https://github.com/PyCQA/pylint[Pylint]                
 |===================================================================================================================================
 
-
-
-#### ABC of discovering a pain in the code
-
-Do wyszukiwania _pain in Ruby code_ użyjemy narzędzia
-https://github.com/seattlerb/flog[Flog] – the higher the
-score, the more pain the code is in.
-
 .verse.rb
 ```ruby
 def verse(n)
@@ -59,50 +35,5 @@ end
 ```
 
 ```sh
-flog -ad verse.rb # --all --details
-    36.2: flog total
-    36.2: flog/method average
-
-    36.2: main#verse                       verse.rb:1-8
-    15.2:   branch
-     7.0:   +
-     6.5:   -
-     5.3:   ==
-     5.2:   !=
-     4.1:   lit_fixnum
-     3.3:   >
-     1.4:   <
+maccabe 
 ```
-
-### 3. Wyszukujemy i naprawiamy _problemy w kodzie_
-
-**Code smells, refactorings – początek XXI wieku, Kent Beck.**
-
-Uruchomić https://github.com/whitesmith/rubycritic[RubyCritics] – a Ruby code quality reporter –
-na większym projekcie napisanym w języku Ruby.
-
-#### Code smell of the week
-
-Programu **reek** można użyć do wypisania „zapachów” w projekcie napisanym w języku Ruby:
-
-```sh
-reek -f json KATALOG | jq .[].documentation_link | sort | uniq -c | sort -n
-```
-Jeśli katalog zawiera nie tylko pliki z kodem w języku Ruby, to modyfikujemy nieco to polecenie,
-na przykład tak:
-```sh
-find lib -name '*.rb' | xargs reek -f json  | jq .[].documentation_link | sort | uniq -c | sort -n
-```
-
-Tutaj jest **link:refactorings.adoc[oficjalna lista code smells i refaktoryzacji]**
-dla języka Ruby i Java.
-Znaleźć trzy najczęściej występujące oficjalne zapachy w jakimś większym projekcie Ruby.
-
-Na ile linijek kodu, średnio, wypada jeden zapach.
-
-
-### 20. Piszemy kod do gotowych testów
-
-Zakładamy konto na portalu https://exercism.io[Exercism].
-Następnie wybieramy **tracks** z językiem obiektowym i przerabiamy
-ćwiczenia (10+).
