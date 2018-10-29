@@ -68,3 +68,5 @@ flog -ad WThFcode.rb # --all --details
      2.0: Tree#to_s                        WThFcode.rb:3-3
      2.0:   branch
 ```
+
+Flog ocenił 4 metody, zawarte w fragmencie kodu. Dla każdego z nich uzyskana wartość złożoności, całkowitą złożoność kodu 32.4.
