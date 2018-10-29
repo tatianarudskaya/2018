@@ -1,4 +1,4 @@
-## Projekt 1: RubyPython _WTF_ factor 
+## Projekt 1: Ruby/Python _WTF_ factor 
 
 . https://github.com/AlDanial/cloc[Cloc] (counts).
   http://carrrsmag.com/blog/cloc.html[(Blog information)].
