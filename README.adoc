@@ -19,7 +19,7 @@ Ruby / Python
 |4  |https://docs.rubocop.org/en/latest/[RuboCop]– static code analyzer (a.k.a. linter) and code formatter (style) |               
 |===================================================================================================================================
 
-.WThFcode.rb
+Ruby. WThFcode.rb
 ```ruby
 class Tree
     def initialize*d;@d,=d;end
@@ -68,3 +68,8 @@ flog -ad WThFcode.rb # --all --details
 ```
 
 Flog ocenił 4 metody, zawarte w fragmencie kodu. Dla każdego z nich uzyskana wartość złożoności, całkowitą złożoność kodu 32.4.
+
+Python. WThFcode2.py
+```
+
+```
