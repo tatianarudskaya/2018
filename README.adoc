@@ -5,6 +5,7 @@
 . https://github.com/PyCQA/mccabe[McCabe] (check McCabe complexity).
   https://pypi.org/project/mccabe[(install mccabe 0.6.1)].
 . https://github.com/PyCQA/pylint[Pylint] (an independent similarities checker).
+. https://github.com/rubik/radon[Radon] (computes various metrics from the source code).
 
 
 Tabl
@@ -16,7 +17,7 @@ Ruby / Python
 |1  |https://github.com/AlDanial/cloc[Cloc] (counts)                      |https://github.com/AlDanial/cloc[Cloc] (counts), http://carrrsmag.com/blog/cloc.html[(Blog information)]       
 |2  |http://ruby.sadi.st/Flog.html[Flog] (ABC complexity)                 |https://github.com/PyCQA/mccabe[McCabe] (check McCabecomplexity), https://pypi.org/project/mccabe[(install mccabe 0.6.1)] 
 |3  |http://ruby.sadi.st/Flay.html[Flay] (structural similarities)        |https://github.com/PyCQA/pylint[Pylint] (symilar: an independent similarities checker)
-|4  |https://docs.rubocop.org/en/latest/[RuboCop]– static code analyzer (a.k.a. linter) and code formatter (style) |               
+|4  |https://docs.rubocop.org/en/latest/[RuboCop]– static code analyzer (a.k.a. linter) and code formatter (style) |https://github.com/rubik/radon[Radon] (computes various metrics from the source code)           
 |===================================================================================================================================
 
 Ruby. WThFcode.rb
