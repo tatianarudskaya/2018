@@ -36,6 +36,10 @@ class Tree
   
 ```
 
+* Images:
++
+image:https://github.com/tatianarudskaya/2018/blob/master/1.png[alt="not bad.",width=728,height=200]
+
 ```sh
 flog -ad WThFcode.rb # --all --details
 32.4: flog total
